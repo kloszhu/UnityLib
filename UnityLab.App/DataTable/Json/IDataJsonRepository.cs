@@ -31,7 +31,7 @@ namespace UnityLab.DataTable
             if (!File.Exists(FileNmae))
             {
                 File.Create(FileNmae);
-                data = new Dictionary<int, T>();
+                data = new Dictionary<int, T>(); 
             }
             else
             {
